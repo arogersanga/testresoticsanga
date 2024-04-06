@@ -73,7 +73,5 @@ export class AppService {
          this.adresseCoordonnesMap.next(this.coordonneesMap);
       });
      });
-     console.log('print adresses apres foreach '+ this.adresseCoordonnesMap);
-    console.log('print adresses brut '+ this.coordonneesMap);
   }
 }
